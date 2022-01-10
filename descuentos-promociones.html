@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./promociones.css">
+    <title>Promociones y Descuentos</title>
+</head>
+<body>
+    <section class="phone">
+        <div class="phone-tittle-container">
+            <div class="phone-logo"></div>
+            <h1 class="phone-tittle">Sistema de Calculo de Precios en Descuento</h1>
+        </div>
+        <form action="phone-formulario">
+            <label for="precio" class="label-precio label">Escriba el Precio del Articulo</label>
+            <input id="Precio" type="number" class="input-precio input">
+            <label for="descuento" class="label-descuento label">Escriba el descuento del Producto</label>
+            <input id="Descuento" type="number" class="input-descuento input">
+            <button type="button" onclick="precioResultante()">Calcular Precio Final</button>
+        </form>
+        <div class="pantalla-container">
+            <label class="pantalla" id="respuesta">
+                Precio Final a Pagar
+            </label>
+        </div>
+    </section>
+    <script src="./descuentos-promociones.js"></script>
+</body>
+</html>

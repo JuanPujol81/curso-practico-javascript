@@ -8,7 +8,43 @@
     <title>Geometrics figures</title>
 </head>
 <body>
-    <h1>Figuras Geométricas</h1>
+    <header>
+        <div class="logo"></div>
+        <h1>Figuras Geometricas</h1>
+    </header>
+    <section class="main-section">
+        <div main-section-tittles>
+            <p class="main-section-tittle">Este es el primer taller del curso practico de javascript.</p>
+            <p class="main-section-subtittle">Confiable y disenado para su uso diario.</p>
+        </div>
+        <div class="main-section-calculus">
+            <form class="cuadrado figura">
+                <div class="forma-cuadrado"></div>
+                <h1>Cuadrado</h1>
+                <label for="InputCuadrado">Escribe cuanto mide el lado del cuadrado</label>
+                <input id="InputCuadrado" type="number">
+                <button type="button" onclick="calcularPerimetroCuadrado()">Calcular Perimetro</button>
+                <button type="button" onclick="calcularAreaCuadrado()">Calcular Area</button>
+            </form>
+            <form class="triangulo figura">
+                <div class="forma-triangulo"></div>
+                <h1>Triangulo</h1>
+                <label for="InputTriangulo">Escribe cuanto mide un lado del triangulo</label>
+                <input id="InputTriangulo" type="number">
+                <button type="button" onclick="calcularPerimetroTriangulo()">Calcular Perimetro</button>
+                <button type="button" onclick="calcularAreaTriangulo()">Calcular Area</button>
+            </form>
+            <form class="circulo figura">
+                <div class="forma-circulo"></div>
+                <h1>Circulo</h1>
+                <label for="InputCirculo">Escribe cuanto mide el radio del circulo</label>
+                <input id="InputCirculo" type="number">
+                <button type="button" onclick="calcularPerimetroCirculo()">Calcular Perimetro</button>
+                <button type="button" onclick="calcularAreaCirculo()">Calcular Area</button>
+            </form>
+            
+        </div>
+    </section>
 
     <script src="./figure.js"></script>
 </body>
