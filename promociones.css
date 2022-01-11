@@ -63,7 +63,7 @@ button {
 
 .pantalla-container {
     width: 80%;
-    height: 150px;
+    height: 60px;
     margin: 0 auto;
     background-color: grey;
     text-align: center;
@@ -79,3 +79,29 @@ button {
     justify-content: center;
     align-items: center;
 }
+
+.cupones {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: lightsteelblue;
+    text-align: center;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.label-cupon {
+    width: 300px;
+    color: rgb(146, 52, 52);
+}
+
+.cupon {
+    width: 200px;
+    margin-top: 15px;
+    border: 1px solid rgb(146, 52, 52);
+}
+

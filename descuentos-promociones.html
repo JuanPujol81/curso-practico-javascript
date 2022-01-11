@@ -14,9 +14,9 @@
             <h1 class="phone-tittle">Sistema de Calculo de Precios en Descuento</h1>
         </div>
         <form action="phone-formulario">
-            <label for="precio" class="label-precio label">Escriba el Precio del Articulo</label>
+            <label for="Precio" class="label-precio label">Escriba el Precio del Articulo</label>
             <input id="Precio" type="number" class="input-precio input">
-            <label for="descuento" class="label-descuento label">Escriba el descuento del Producto</label>
+            <label for="Descuento" class="label-descuento label">Escriba el descuento del Producto</label>
             <input id="Descuento" type="number" class="input-descuento input">
             <button type="button" onclick="precioResultante()">Calcular Precio Final</button>
         </form>
@@ -24,6 +24,10 @@
             <label class="pantalla" id="respuesta">
                 Precio Final a Pagar
             </label>
+        </div>
+        <div class="cupones">
+            <label for="Cupon" class="label-cupon">Si tiene algun cupon de descuento Escibalo aqui:</label>
+            <input id="Cupon" class="cupon">
         </div>
     </section>
     <script src="./descuentos-promociones.js"></script>
