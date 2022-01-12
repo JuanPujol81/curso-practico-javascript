@@ -22,3 +22,14 @@ improving my javascript skills by the practice
 -Tercer paso: crear funciones
 
 -Cuarto paso: integrar javascript con html
+
+
+## Taller # : Promedio, Mediana y Moda
+
+-Primer paso: definir las formulas
+
+-Segundo paso: implementar las formulas en javascript
+
+-Tercer paso: crear funciones
+
+-Cuarto paso: integrar javascript con html
